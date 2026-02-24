@@ -1,0 +1,22 @@
+.carouselTecnologias {
+  overflow-x: hidden;
+}
+
+// tamanho sm do tailwind
+@media (max-width: 640px) {
+  .grupoTecnologias {
+    display: flex;
+    gap: 1rem;
+    animation: scrolling 20s linear infinite;
+    flex-grow: 1;
+    padding-right: 1rem;
+  }
+  .carouselTecnologias {
+    overflow-x: hidden;
+  }
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
