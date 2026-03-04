@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { heroPaperAirplaneSolid } from '@ng-icons/heroicons/solid';
+import { TranslationService } from '../../services/translation.service';
 
 @Component({
   selector: 'app-contato',
@@ -11,6 +12,8 @@ import { heroPaperAirplaneSolid } from '@ng-icons/heroicons/solid';
   providers: [provideIcons({ heroPaperAirplaneSolid })],
 })
 export class ContatoComponent {
+  tSer = inject(TranslationService);
+
   contato = {
     nome: '',
     email: '',

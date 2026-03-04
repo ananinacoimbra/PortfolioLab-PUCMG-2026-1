@@ -13,5 +13,27 @@
 
   "tecnologiasUsadas": "Tecnologias Mais Utilizadas",
   "projetosParticipados": "Projetos que Participei",
-  "experiencia": "Experiência"
+  "experiencia": "Experiência",
+
+  "contatoTitulo": "Entre em Contato",
+  "contatoNome": "Nome",
+  "contatoNomePlaceholder": "Seu nome",
+  "contatoNomeErro": "Nome é obrigatório (mínimo 3 caracteres).",
+  "contatoEmail": "Email",
+  "contatoEmailPlaceholder": "seu@email.com",
+  "contatoEmailErro": "Informe um email válido.",
+  "contatoMensagem": "Mensagem",
+  "contatoMensagemPlaceholder": "Escreva sua mensagem...",
+  "contatoMensagemErro": "Mensagem é obrigatória (mínimo 10 caracteres).",
+  "contatoEnviar": "Enviar Mensagem",
+
+  "expTitulo1": "Primeira Experiência",
+  "expTitulo2": "Segunda Experiência",
+  "expTitulo3": "Terceira Experiência",
+  "expTitulo4": "Quarta Experiência",
+  "expTitulo5": "Quinta Experiência",
+  "expTitulo6": "Sexta Experiência",
+  "expDescricao": "Descrição simples e provisória.",
+
+  "footerNome": "Seu Nome"
 }

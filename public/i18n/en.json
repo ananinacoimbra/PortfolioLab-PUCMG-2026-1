@@ -13,5 +13,27 @@
 
   "tecnologiasUsadas": "Most Used Technologies",
   "projetosParticipados": "Projects I Have Participated",
-  "experiencia": "Experience"
+  "experiencia": "Experience",
+
+  "contatoTitulo": "Get in Touch",
+  "contatoNome": "Name",
+  "contatoNomePlaceholder": "Your name",
+  "contatoNomeErro": "Name is required (minimum 3 characters).",
+  "contatoEmail": "Email",
+  "contatoEmailPlaceholder": "your@email.com",
+  "contatoEmailErro": "Please enter a valid email.",
+  "contatoMensagem": "Message",
+  "contatoMensagemPlaceholder": "Write your message...",
+  "contatoMensagemErro": "Message is required (minimum 10 characters).",
+  "contatoEnviar": "Send Message",
+
+  "expTitulo1": "First Experience",
+  "expTitulo2": "Second Experience",
+  "expTitulo3": "Third Experience",
+  "expTitulo4": "Fourth Experience",
+  "expTitulo5": "Fifth Experience",
+  "expTitulo6": "Sixth Experience",
+  "expDescricao": "Simple and provisional description.",
+
+  "footerNome": "Your Name"
 }
