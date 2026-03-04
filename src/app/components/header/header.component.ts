@@ -17,7 +17,7 @@ import { TranslationService } from '../../services/translation.service';
   selector: 'app-header',
   styleUrl: './header.scss',
   templateUrl: './header.html',
-  imports: [NgIcon, RouterLink],
+  imports: [NgIcon],
   providers: [
     provideIcons({
       heroHomeSolid,
