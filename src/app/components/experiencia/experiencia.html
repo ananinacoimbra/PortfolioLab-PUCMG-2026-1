@@ -12,47 +12,17 @@
     &#10094;
   </button>
   <div class="carousel" id="carousel">
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo1') }}</h3>
-      <span>2018</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
-
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo2') }}</h3>
-      <span>2019</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
-
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo3') }}</h3>
-      <span>2020</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
-
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo4') }}</h3>
-      <span>2021</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
-
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo5') }}</h3>
-      <span>2022</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
-
-    <div class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
-      <img src="https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png" alt="" />
-      <h3>{{ tSer.translate('expTitulo6') }}</h3>
-      <span>2023</span>
-      <p>{{ tSer.translate('expDescricao') }}</p>
-    </div>
+    @for (exp of experiencias; track exp.titleKey) {
+      <div
+        class="card dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText"
+        (click)="openModal(exp)"
+      >
+        <img [src]="exp.image" alt="" />
+        <h3>{{ tSer.translate(exp.titleKey) }}</h3>
+        <span>{{ exp.year }}</span>
+        <p>{{ tSer.translate(exp.descriptionKey) }}</p>
+      </div>
+    }
   </div>
 
   <button
@@ -62,3 +32,21 @@
     &#10095;
   </button>
 </div>
+
+@if (selectedExp) {
+  <div class="modal-overlay" (click)="onOverlayClick($event)">
+    <div class="modal-content dark:bg-darkNeutral bg-white text-lightBgText dark:text-darkBgText">
+      <div class="modal-header">
+        <h2>{{ tSer.translate(selectedExp.titleKey) }}</h2>
+        <button class="modal-close dark:text-darkBgText text-lightBgText" (click)="closeModal()">
+          &times;
+        </button>
+      </div>
+      <img [src]="selectedExp.image" alt="" class="modal-image" />
+      <span class="modal-year">{{ selectedExp.year }}</span>
+      <p class="modal-description">{{ tSer.translate(selectedExp.descriptionKey) }}</p>
+      <hr class="modal-divider dark:border-darkNeutral border-neutral" />
+      <p class="modal-detail">{{ tSer.translate(selectedExp.detailKey) }}</p>
+    </div>
+  </div>
+}

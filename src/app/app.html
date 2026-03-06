@@ -1,9 +1,16 @@
 <div id="particles-js"></div>
 
 <div
+  #scrollContainer
+  (scroll)="onScroll($event)"
   class="h-screen scroll-smooth [&::-webkit-scrollbar]:[width:6px] dark:[&::-webkit-scrollbar-thumb]:bg-darkNeutral [&::-webkit-scrollbar-thumb]:bg-primary-500 overflow-y-auto [&::-webkit-scrollbar-thumb]:[border-radius:3px]"
 >
   <app-header [theme]="theme" (changeTheme)="toggleTheme()"></app-header>
   <router-outlet />
 </div>
-<!-- <footer class="flex h-28 bg-primary-800 mt-auto"></footer> -->
+
+@if (showScrollTop) {
+  <button class="scroll-top-btn dark:bg-darkNeutral bg-white" (click)="scrollToTop()">
+    <ng-icon name="heroChevronUpSolid" class="text-primary-500" size="24"></ng-icon>
+  </button>
+}

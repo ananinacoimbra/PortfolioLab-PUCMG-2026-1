@@ -34,7 +34,18 @@
   "expTitulo4": "Fourth Experience",
   "expTitulo5": "Fifth Experience",
   "expTitulo6": "Sixth Experience",
-  "expDescricao": "Simple and provisional description.",
+  "expDescricao1": "Simple and provisional description.",
+  "expDescricao2": "Simple and provisional description.",
+  "expDescricao3": "Simple and provisional description.",
+  "expDescricao4": "Simple and provisional description.",
+  "expDescricao5": "Simple and provisional description.",
+  "expDescricao6": "Simple and provisional description.",
+  "expDetalhe1": "Full details about the first experience. Responsibilities, technologies used and results achieved.",
+  "expDetalhe2": "Full details about the second experience. Responsibilities, technologies used and results achieved.",
+  "expDetalhe3": "Full details about the third experience. Responsibilities, technologies used and results achieved.",
+  "expDetalhe4": "Full details about the fourth experience. Responsibilities, technologies used and results achieved.",
+  "expDetalhe5": "Full details about the fifth experience. Responsibilities, technologies used and results achieved.",
+  "expDetalhe6": "Full details about the sixth experience. Responsibilities, technologies used and results achieved.",
 
   "footerNome": "Your Name"
 }

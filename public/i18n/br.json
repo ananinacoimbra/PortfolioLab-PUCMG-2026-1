@@ -34,7 +34,18 @@
   "expTitulo4": "Quarta Experiência",
   "expTitulo5": "Quinta Experiência",
   "expTitulo6": "Sexta Experiência",
-  "expDescricao": "Descrição simples e provisória.",
+  "expDescricao1": "Descrição simples e provisória.",
+  "expDescricao2": "Descrição simples e provisória.",
+  "expDescricao3": "Descrição simples e provisória.",
+  "expDescricao4": "Descrição simples e provisória.",
+  "expDescricao5": "Descrição simples e provisória.",
+  "expDescricao6": "Descrição simples e provisória.",
+  "expDetalhe1": "Detalhes completos sobre a primeira experiência. Responsabilidades incluíam desenvolvimento de aplicações web utilizando Angular e TypeScript, criação de APIs RESTful com Node.js e Express, integração com bancos de dados PostgreSQL e MongoDB, e deploy em ambientes cloud AWS. Participei ativamente de cerimônias ágeis como daily standups, sprint planning e retrospectivas. Tecnologias utilizadas: Angular, TypeScript, Node.js, Express, PostgreSQL, MongoDB, Docker, AWS, Git, Jenkins. Resultados alcançados: redução de 40% no tempo de carregamento da aplicação principal, implementação de pipeline CI/CD que diminuiu o tempo de deploy de 2 horas para 15 minutos, e mentoria de 3 desenvolvedores juniores. Também fui responsável por documentar processos técnicos e realizar code reviews semanais para garantir a qualidade do código entregue pela equipe.",
+  "expDetalhe2": "Detalhes completos sobre a segunda experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
+  "expDetalhe3": "Detalhes completos sobre a terceira experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
+  "expDetalhe4": "Detalhes completos sobre a quarta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
+  "expDetalhe5": "Detalhes completos sobre a quinta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
+  "expDetalhe6": "Detalhes completos sobre a sexta experiência. Responsabilidades, tecnologias utilizadas e resultados alcançados.",
 
   "footerNome": "Seu Nome"
 }
