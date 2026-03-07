@@ -79,18 +79,18 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 
 ### 💻 Front-end
 
-| Tecnologia          | Versão | Descrição                                        |
-| :------------------ | :----: | :----------------------------------------------- |
-| **Angular**         | 20.2.0 | Framework principal da aplicação                 |
-| **TypeScript**      | 5.9.2  | Superset JavaScript com tipagem estática         |
-| **Tailwind CSS**    | 4.2.0  | Framework utilitário de estilização              |
-| **SCSS**            |   —    | Pré-processador CSS para estilos de componentes  |
-| **Particles.js**    | 2.0.0  | Animação de partículas interativas no fundo      |
-| **ng-icons**        | 32.5.0 | Ícones (Heroicons, Devicon, Ionicons, Bootstrap) |
-| **RxJS**            | 7.8.x  | Programação reativa                              |
-| **Angular CLI**     | 20.2.2 | Ferramenta de build e scaffolding                |
-| **Karma + Jasmine** |   —    | Testes unitários                                 |
-| **PostCSS**         | 8.5.x  | Processamento CSS (integração Tailwind)          |
+| Tecnologia       | Versão | Descrição                                              |
+| :--------------- | :----: | :----------------------------------------------------- |
+| **Angular**      | 20.2.0 | Framework principal da aplicação                       |
+| **TypeScript**   | 5.9.2  | Superset JavaScript com tipagem estática               |
+| **Tailwind CSS** | 4.2.0  | Framework utilitário de estilização                    |
+| **SCSS**         |   —    | Pré-processador CSS para estilos de componentes        |
+| **Particles.js** | 2.0.0  | Animação de partículas interativas no fundo            |
+| **ng-icons**     | 32.5.0 | Ícones (Heroicons, Devicon, Ionicons, Bootstrap)       |
+| **RxJS**         | 7.8.x  | Programação reativa                                    |
+| **Angular CLI**  | 20.2.2 | Ferramenta de build e scaffolding                      |
+| **PostCSS**      | 8.5.x  | Processamento CSS (integração Tailwind)                |
+| **Emailjs**      | 3.2.0  | Envio de emails via JavaScript (formulário de contato) |
 
 ---
 
@@ -126,7 +126,7 @@ npm install
 Inicie o servidor de desenvolvimento:
 
 ```bash
-ng serve
+npm run start
 ```
 
 🚀 _A aplicação estará disponível em **http://localhost:4200**. O servidor recarrega automaticamente ao detectar alterações nos arquivos._
@@ -189,7 +189,8 @@ ng serve
 - 📖 **Estilização:** [Documentação do **Tailwind CSS**](https://tailwindcss.com/docs)
 - 📖 **Ícones:** [Documentação do **ng-icons**](https://ng-icons.github.io/ng-icons/)
 - 📖 **Partículas:** [Documentação do **Particles.js**](https://vincentgarreau.com/particles.js/)
-- 📖 **Testes:** [Documentação do **Karma**](https://karma-runner.github.io)
+- 📖 **Internacionalização:** [Angular i18n Guide](https://angular.io/guide/i18n)
+- 📖 **Envio de Emails:** [Documentação do **Emailjs**](https://www.emailjs.com/docs/)
 
 ---
 
