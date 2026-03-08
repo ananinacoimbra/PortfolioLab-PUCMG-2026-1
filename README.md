@@ -87,7 +87,6 @@ As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construç
 | **SCSS**         |   —    | Pré-processador CSS para estilos de componentes        |
 | **Particles.js** | 2.0.0  | Animação de partículas interativas no fundo            |
 | **ng-icons**     | 32.5.0 | Ícones (Heroicons, Devicon, Ionicons, Bootstrap)       |
-| **RxJS**         | 7.8.x  | Programação reativa                                    |
 | **Angular CLI**  | 20.2.2 | Ferramenta de build e scaffolding                      |
 | **PostCSS**      | 8.5.x  | Processamento CSS (integração Tailwind)                |
 | **Emailjs**      | 3.2.0  | Envio de emails via JavaScript (formulário de contato) |
@@ -194,11 +193,11 @@ npm run start
 
 ---
 
-## 👥 Autores
+## 👥 Autor
 
-| 👤 Nome                        | GitHub                                                                                                                                                            | 📤 Email |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Vicenzo Fonseca de Mello Souza | <div align="center"><a href="https://github.com/vicenzofms"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | —        |
+| 👤 Nome                        | GitHub                                                                                                                                                            | 📤 Email             |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Vicenzo Fonseca de Mello Souza | <div align="center"><a href="https://github.com/vicenzofms"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="50px" height="50px"></a></div> | vicenzofms@gmail.com |
 
 ---
 
