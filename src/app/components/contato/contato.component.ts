@@ -4,6 +4,7 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
 import { heroPaperAirplaneSolid } from '@ng-icons/heroicons/solid';
 import { TranslationService } from '../../services/translation.service';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-contato',
@@ -26,9 +27,9 @@ export class ContatoComponent implements AfterViewInit {
   errorMessage = '';
 
   // Configurações do EmailJS - substitua com suas chaves
-  private readonly SERVICE_ID = 'YOUR_SERVICE_ID';
-  private readonly TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-  private readonly PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+  private readonly SERVICE_ID = environment.EMAILJS_SERVICE_ID;
+  private readonly TEMPLATE_ID = environment.EMAILJS_TEMPLATE_ID;
+  private readonly PUBLIC_KEY = environment.EMAILJS_PUBLIC_KEY;
 
   ngAfterViewInit() {
     emailjs.init(this.PUBLIC_KEY);
@@ -65,7 +66,7 @@ export class ContatoComponent implements AfterViewInit {
             this.errorMessage = `Erro ao enviar mensagem: ${(error as EmailJSResponseStatus).text}`;
             this.isLoading = false;
             console.error('Erro ao enviar email:', error);
-          }
+          },
         );
     }
   }

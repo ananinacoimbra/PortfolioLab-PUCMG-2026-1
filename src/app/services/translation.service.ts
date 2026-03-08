@@ -12,14 +12,9 @@ export class TranslationService {
     this.loadTranslation(this.currentLang);
   }
 
-  ngOnInit() {
-    console.log('ts service started');
-  }
-
   loadTranslation(lang: 'br' | 'en') {
     return this.http.get(`/i18n/${lang}.json`).subscribe((data: any) => {
       this.translation = data;
-      console.log(this.translation);
       this.currentLang = lang;
     });
   }
