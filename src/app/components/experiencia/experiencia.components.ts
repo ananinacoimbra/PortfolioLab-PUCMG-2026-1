@@ -19,12 +19,41 @@ export class ExperienciaComponent {
   selectedExp: Experiencia | null = null;
 
   experiencias: Experiencia[] = [
-    { titleKey: 'expTitulo1', year: '2018', descriptionKey: 'expDescricao1', detailKey: 'expDetalhe1', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
-    { titleKey: 'expTitulo2', year: '2019', descriptionKey: 'expDescricao2', detailKey: 'expDetalhe2', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
-    { titleKey: 'expTitulo3', year: '2020', descriptionKey: 'expDescricao3', detailKey: 'expDetalhe3', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
-    { titleKey: 'expTitulo4', year: '2021', descriptionKey: 'expDescricao4', detailKey: 'expDetalhe4', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
-    { titleKey: 'expTitulo5', year: '2022', descriptionKey: 'expDescricao5', detailKey: 'expDetalhe5', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
-    { titleKey: 'expTitulo6', year: '2023', descriptionKey: 'expDescricao6', detailKey: 'expDetalhe6', image: 'https://miro.medium.com/1*Kj8Eq401fP2ecTY8r9B89Q.png' },
+    {
+      titleKey: 'expTitulo1',
+      year: '2018',
+      descriptionKey: 'expDescricao1',
+      detailKey: 'expDetalhe1',
+      image: '/banner-java.jpg',
+    },
+    {
+      titleKey: 'expTitulo2',
+      year: '2019',
+      descriptionKey: 'expDescricao2',
+      detailKey: 'expDetalhe2',
+      image: '/oop-banner.png',
+    },
+    {
+      titleKey: 'expTitulo3',
+      year: '2019 & 2020',
+      descriptionKey: 'expDescricao3',
+      detailKey: 'expDetalhe3',
+      image: '/obi-banner.jpeg',
+    },
+    {
+      titleKey: 'expTitulo4',
+      year: '2021',
+      descriptionKey: 'expDescricao4',
+      detailKey: 'expDetalhe4',
+      image: '/angular-banner.jpg',
+    },
+    {
+      titleKey: 'expTitulo5',
+      year: '2022',
+      descriptionKey: 'expDescricao5',
+      detailKey: 'expDetalhe5',
+      image: '/ionic-banner.png',
+    },
   ];
 
   openModal(exp: Experiencia) {

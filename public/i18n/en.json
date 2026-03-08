@@ -10,7 +10,7 @@
 
   "pApresentacao1": "I'm 20 years old, currently studying",
   "engSoftware": "Software Engineering",
-  "pApresentacao2": "at PUC Minas. I started to code 8 years ago and since then I had contact with many technologies, mainly",
+  "pApresentacao2": "at PUC Minas. I started coding 8 years ago and since then I have had contact with many technologies, mainly",
 
   "tecnologiasUsadas": "Most Used Technologies",
   "projetosParticipados": "Projects I Have Participated",
@@ -28,24 +28,46 @@
   "contatoMensagemErro": "Message is required (minimum 10 characters).",
   "contatoEnviar": "Send Message",
 
-  "expTitulo1": "First Experience",
-  "expTitulo2": "Second Experience",
-  "expTitulo3": "Third Experience",
-  "expTitulo4": "Fourth Experience",
-  "expTitulo5": "Fifth Experience",
-  "expTitulo6": "Sixth Experience",
-  "expDescricao1": "Simple and provisional description.",
-  "expDescricao2": "Simple and provisional description.",
-  "expDescricao3": "Simple and provisional description.",
-  "expDescricao4": "Simple and provisional description.",
-  "expDescricao5": "Simple and provisional description.",
-  "expDescricao6": "Simple and provisional description.",
-  "expDetalhe1": "Full details about the first experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe2": "Full details about the second experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe3": "Full details about the third experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe4": "Full details about the fourth experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe5": "Full details about the fifth experience. Responsibilities, technologies used and results achieved.",
-  "expDetalhe6": "Full details about the sixth experience. Responsibilities, technologies used and results achieved.",
+  "projetoUmDesc": "Rubik's Cube timer with session tracking and scramble generation",
+  "projetoUmTitulo": "FmsTimer FX",
+  "projetoUmSup": "Built with Java and JavaFX",
 
-  "footerNome": "Your Name"
+  "projetoDoisDesc": "School assignment manager",
+  "projetoDoisTitulo": "Neatly",
+  "projetoDoisSup": "Built with Electron",
+
+  "projetoTresDesc": "My personal Neovim editor configuration",
+  "projetoTresTitulo": "Kvim",
+  "projetoTresSup": "Built with Lua",
+
+  "projetoQuatroDesc": "Application for managing a dance school",
+  "projetoQuatroTitulo": "DanceSys",
+  "projetoQuatroSup": "Built with Angular and Java",
+
+  "projetoCincoDesc": "Full-stack application with authentication for managing TO-DOs",
+  "projetoCincoTitulo": "To-do Full Stack App",
+  "projetoCincoSup": "Built with Svelte, NestJS and Postgres",
+
+  "projetoSeisDesc": "Datapack that adds new and unique enchantments",
+  "projetoSeisTitulo": "Advanced Enchantments",
+  "projetoSeisSup": "Minecraft Datapack",
+
+  "expTitulo1": "Java Course",
+  "expTitulo2": "OOP Course",
+  "expTitulo3": "Brazilian Olympiad in Informatics",
+  "expTitulo4": "Angular Course",
+  "expTitulo5": "Ionic Course",
+
+  "expDescricao1": "Curso em Vídeo",
+  "expDescricao2": "Curso em Vídeo",
+  "expDescricao3": "Highest stage reached in both competitions",
+  "expDescricao4": "Angular - The Complete Guide",
+  "expDescricao5": "Ionic - Build iOS, Android & Web Apps with Ionic and Angular",
+
+  "expDetalhe1": "40-hour course",
+  "expDetalhe2": "40-hour course",
+  "expDetalhe3": "In 2019 I placed 36th in the Junior Programming category, and in 2020 I placed 21st in the Programming Level 1 category. In both years I reached the third and final stage.",
+  "expDetalhe4": "Available on Udemy and taught by Maximilian Schwarzmüller, the course has a 4.7/5 rating with over 220,000 reviews and more than 850,000 students.",
+  "expDetalhe5": "Available on Udemy and taught by Maximilian Schwarzmüller, the course has a 4.8/5 rating with over 17,000 reviews and more than 75,000 students.",
+  "footerNome": "Vicenzo Fonseca de Mello Souza"
 }

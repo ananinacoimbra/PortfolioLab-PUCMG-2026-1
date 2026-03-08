@@ -3,13 +3,17 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
 import { ionLogoIonic, ionLogoElectron } from '@ng-icons/ionicons';
 import {
   diJavaPlain,
+  diVimPlain,
   diAngularPlain,
   diJavascriptPlain,
   diCss3Plain,
   diHtml5Plain,
+  diCsharpPlain,
+  diChartjsPlain,
   diCplusplusPlain,
   diFirebasePlain,
   diTypescriptPlain,
+  diSqlitePlain,
 } from '@ng-icons/devicon/plain';
 import { diTailwindcssOriginal } from '@ng-icons/devicon/original';
 
@@ -20,7 +24,11 @@ import { diTailwindcssOriginal } from '@ng-icons/devicon/original';
   imports: [NgIcon],
   providers: provideIcons({
     diAngularPlain,
+    diVimPlain,
     diTailwindcssOriginal,
+    diChartjsPlain,
+    diCsharpPlain,
+    diSqlitePlain,
     diFirebasePlain,
     diJavascriptPlain,
     diCss3Plain,
