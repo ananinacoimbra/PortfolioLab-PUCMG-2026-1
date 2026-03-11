@@ -21,39 +21,27 @@ export class ExperienciaComponent {
   experiencias: Experiencia[] = [
     {
       titleKey: 'expTitulo1',
-      year: '2018',
+      year: '2026',
       descriptionKey: 'expDescricao1',
       detailKey: 'expDetalhe1',
-      image: '/banner-java.jpg',
+      image: 'Python.jpeg',
     },
     {
       titleKey: 'expTitulo2',
-      year: '2019',
+      year: '2026',
       descriptionKey: 'expDescricao2',
       detailKey: 'expDetalhe2',
-      image: '/oop-banner.png',
+      image: '/AG.jpeg',
     },
     {
       titleKey: 'expTitulo3',
-      year: '2019 & 2020',
+      year: '2022',
       descriptionKey: 'expDescricao3',
       detailKey: 'expDetalhe3',
-      image: '/obi-banner.jpeg',
+      image: '/arq.jpeg',
     },
-    {
-      titleKey: 'expTitulo4',
-      year: '2021',
-      descriptionKey: 'expDescricao4',
-      detailKey: 'expDetalhe4',
-      image: '/angular-banner.jpg',
-    },
-    {
-      titleKey: 'expTitulo5',
-      year: '2022',
-      descriptionKey: 'expDescricao5',
-      detailKey: 'expDetalhe5',
-      image: '/ionic-banner.png',
-    },
+    
+    
   ];
 
   openModal(exp: Experiencia) {
