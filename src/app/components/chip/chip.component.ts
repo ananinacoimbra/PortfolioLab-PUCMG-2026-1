@@ -14,6 +14,7 @@ import {
   diFirebasePlain,
   diTypescriptPlain,
   diSqlitePlain,
+  diPythonPlain
 } from '@ng-icons/devicon/plain';
 import { diTailwindcssOriginal } from '@ng-icons/devicon/original';
 
@@ -37,6 +38,7 @@ import { diTailwindcssOriginal } from '@ng-icons/devicon/original';
     diJavaPlain,
     diTypescriptPlain,
     diCplusplusPlain,
+    diPythonPlain,
     ionLogoIonic,
   }),
 })

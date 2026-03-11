@@ -5,12 +5,14 @@
   "abaContato": "Entre em contato!",
   "abaExperiencia": "Experiência",
 
-  "tituloOla": "Olá, seja bem vindo!",
+  "tituloOla": "Oi! Que bom te ver aqui!",
   "euSou": "Eu sou",
 
-  "pApresentacao1": "Tenho 20 anos, sou estudante de",
+  "pApresentacao1": "Sou estudante de ",
   "engSoftware": "Engenharia de Software",
-  "pApresentacao2": "na PUC Minas. Comecei a programar há 8 anos e desde então tive contato com diversas tecnologias, principalmente",
+  "pApresentacao2": "e arquiteta pela PUC Minas. Criando soluções digitais através de criatividade, organização e muita estratégia. Meu objetivo é simples: conectar marcas e pessoas através de um trabalho autêntico e bem executado.",
+
+  "LetsTalk": "Vamos conversar!",
 
   "tecnologiasUsadas": "Tecnologias Mais Utilizadas",
   "projetosParticipados": "Projetos que Participei",
@@ -28,45 +30,30 @@
   "contatoMensagemErro": "Mensagem é obrigatória (mínimo 10 caracteres).",
   "contatoEnviar": "Enviar Mensagem",
 
-  "projetoUmDesc": "Timer para cubo mágico, com controle de sessões e geração de embaralhamentos",
-  "projetoUmTitulo": "FmsTimer FX",
-  "projetoUmSup": "Feito com Java e JavaFX",
+  "projetoUmDesc":  "Aplicação para gerenciamento de uma escola de dança",
+  "projetoUmTitulo": "DanceSys",
+  "projetoUmSup": "Feito com Angular e Java",
 
-  "projetoDoisDesc": "Gerenciador de trabalhos escolares",
-  "projetoDoisTitulo": "Neatly",
-  "projetoDoisSup": "Feito com Electron",
+  "projetoDoisDesc": "Gerenciador para abrigo pet",
+  "projetoDoisTitulo": "Adote sua patinha",
+  "projetoDoisSup": "Feito com React e Java",
 
-  "projetoTresDesc": "Minha configuração pessoal do editor Neovim",
-  "projetoTresTitulo": "Kvim",
-  "projetoTresSup": "Feito com Lua",
+  "projetoTresDesc": "Gerenciador para loja de informática",
+  "projetoTresTitulo": "Vaztech",
+  "projetoTresSup": "Feito com Angular e Java",
 
-  "projetoQuatroDesc": "Aplicação para gerenciamento de uma escola de dança",
-  "projetoQuatroTitulo": "DanceSys",
-  "projetoQuatroSup": "Feito com Angular e Java",
+  "expTitulo1": "Curso de Python com foco em RPA",
+  "expTitulo2": "Estágio na Andrade Guierrez",
+  "expTitulo3": "Graduada em arquitetura e urbanismo",
 
-  "projetoCincoDesc": "Aplicação full-stack com autenticação para gerenciamento de TO-DOs",
-  "projetoCincoTitulo": "To-do Full Stack App",
-  "projetoCincoSup": "Feito com Svelte, NestJS e Postgres",
+  "expDescricao1": "Curso em Vídeo pela AG",
+  "expDescricao2": "Experiencia profissional",
+  "expDescricao3": "Formação anterior",
 
-  "projetoSeisDesc": "Datapack que adiciona novos e únicos encantamentos",
-  "projetoSeisTitulo": "Advanced Enchantments",
-  "projetoSeisSup": "Minecraft Datapack",
-
-  "expTitulo1": "Curso de Java",
-  "expTitulo2": "Curso de POO",
-  "expTitulo3": "Olimpíada Brasileira de Informática",
-  "expTitulo4": "Curso de Angular",
-  "expTitulo5": "Curso de Ionic",
-  "expDescricao1": "Curso em Vídeo",
-  "expDescricao2": "Curso em Vídeo",
-  "expDescricao3": "Última fase alcançada em ambas",
-  "expDescricao4": "Angular - The Complete Guide",
-  "expDescricao5": "Ionic - Build iOS, Android & Web Apps with Ionic and Angular",
   "expDetalhe1": "40 horas de curso",
-  "expDetalhe2": "40 horas de curso",
-  "expDetalhe3": "Em 2019 alcancei a 36ª colocação na modalidade Programação Nível Júnior e em 2020 alcancei a 21ª na modalidade Programação Nível 1. Em ambos os anos cheguei na terceira e última fase.",
-  "expDetalhe4": "Disponível na Udemy e feito por Maximilian Schwarzmüller, o curso possui 4,7/5 estrelas com mais de 220.000 avaliações e mais de 850.000 alunos",
-  "expDetalhe5": "Disponível na Udemy e feito por Maximilian Schwarzmüller, o curso possui 4,8/5 estrelas com mais de 17.000 avaliações e mais de 75.000 alunos",
+  "expDetalhe2": "atualmente empregada",
+  "expDetalhe3": "Bacharel em Arquitetura e Urbanismo pela PUC -MG",
 
-  "footerNome": "Vicenzo Fonseca de Mello Souza"
+
+  "footerNome": "Ana Carolina Coimbra"
 }
